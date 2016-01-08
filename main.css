@@ -1,0 +1,475 @@
+
+/* ~~~~~~~~ GENERAL ~~~~~~~~ */
+body {
+    font-family: 'roboto', arial, garamond;
+    color: #444;
+    font-size: 18px;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-decoration: uppercase;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-weight: 300;
+    text-align: center;
+}
+
+p {
+    line-height: 20px;
+    text-align: center;
+}
+
+ul {
+    margin-top: 30px;
+}
+
+section {
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+.container {
+    padding-top: 10vh;
+}
+
+.carousel {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.divider {
+    background: #ddd;
+    height: 2px;
+    border-bottom: solid 1px #fff;
+}
+
+.switch-left {
+    float: none;
+}
+
+.switch-right {
+    float: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.round {
+    border-radius: 100px;
+}
+
+.yellow {
+    background-color: #ffc85a;
+}
+
+.blue {
+    background-color: #3eafef;
+}
+
+.red {
+    background-color: #ff5a5a;
+}
+
+.navy {
+    background-color: #5071bd;
+}
+
+
+
+@media (min-width: 768px) {
+    h3, p {
+        text-align: left;
+    }
+
+    .switch-left {
+        float: left;
+    }
+
+    .switch-right {
+        float: right;
+    }
+}
+
+/* ~~~~~~~~ NAV ~~~~~~~~ */
+.logo-main {
+    position: absolute;
+    left: 50%;
+    padding: 5px 0;
+}
+
+.logo-main img {
+    height: 38px;
+}
+
+
+@media (min-width: 768px) {
+
+    .navbar>.container-fluid .navbar-brand {
+        margin-left: auto;
+    }
+
+    h1 {
+        font-size: 64px;
+        font-weight: 700px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 36px;
+        font-weight: 300;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+
+/* ~~~~~~~~ HOME ~~~~~~~~ */
+section.home {
+    background: url('img/huiz-pool-1.jpg') fixed center;
+    background-size: cover;
+    color: #fff;
+    border-bottom: 20px solid #fff;
+    min-height: 100vh;
+}
+
+section.home h1 {
+    color: #fff;
+    padding-top: 10vh;
+}
+
+section.home p, section.home h3 {
+    text-align: center;
+}
+
+section.home .lead {
+    margin-bottom: 80px;
+}
+
+section.home .waves {
+    height: 50px;
+    width: 100%;
+    background: url('img/wave-2.png') repeat-x;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+@media (min-width: 768px) {
+    section.home h1 {
+        padding-top: 25vh;
+    }
+
+    section.home .lead {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/* ~~~~~~~~ POOL ~~~~~~~~ */
+
+section.pool {
+}
+
+section.pool .grass {
+    height: 100px;
+    width: 100%;
+    background: url('img/grass.png') repeat-x;
+    position: absolute;
+    bottom: 0;
+}
+
+section.pool .row {
+    margin-bottom: 50px;
+}
+
+section.pool h3 {
+    color: #3eadaf;
+}
+
+section.pool .row p {
+    font-weight: 300;
+}
+
+section.pool .carousel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* ~~~~~~~~ GARDENS ~~~~~~~~ */
+
+section.gardens {
+    background: #ff5a5a;
+}
+
+section.gardens .row {
+    margin-bottom: 50px;
+}
+
+section.gardens h2 {
+    color: #fff;
+}
+
+section.gardens h3 {
+    color: #fff;
+}
+
+section.gardens .lead {
+    color: #fff;
+}
+
+section.gardens .row p {
+    font-weight: 300;
+    color: #fff;
+}
+
+section.gardens .carousel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+section.gardens .rectangle {
+    background: #ffc85a;
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    left: 8vw;
+}
+
+section.gardens .house {
+    position: relative;
+    text-align: center;
+    height: 30vh;
+    width: 100%;
+    top: 10vh;
+}
+
+section.gardens .house:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background: #ffc85a;
+    -webkit-transform: skew(0deg, -9deg);
+    -moz-transform: skew(0deg, -9deg);
+    -ms-transform: skew(0deg, -9deg);
+    -o-transform: skew(0deg, -9deg);
+    transform: skew(0deg, -9deg);
+}
+
+section.gardens .house:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: #ffc85a;
+    -webkit-transform: skew(0deg, 9deg);
+    -moz-transform: skew(0deg, 9deg);
+    -ms-transform: skew(0deg, 9deg);
+    -o-transform: skew(0deg, 9deg);
+    transform: skew(0deg, 9deg);*/
+}
+
+
+
+@media (min-width: 768px) {
+    section.gardens .rectangle {
+        width: 150px;
+        height: 200px;
+        left: 16vw;
+    }
+}
+
+
+/* ~~~~~~~~ ACCOMMODATION ~~~~~~~~ */
+
+section.accommodation {
+    background: #ffc85a;
+    min-height: 55vh;
+}
+
+section.accommodation .container {
+    padding-top: 0;
+    position: relative;
+    top: -15vh;
+}
+
+section.accommodation .row {
+    margin-bottom: 50px;
+}
+
+section.accommodation h2 {
+
+}
+
+section.accommodation h3 {
+    color: #3eadaf;
+}
+
+section.accommodation .row p {
+    font-weight: 300;
+}
+
+section.accommodation .carousel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* ~~~~~~~~ CATERING ~~~~~~~~ */
+
+section.catering {
+    background: #444;
+    min-height: 200px;
+}
+
+section.catering h2 {
+    color: #fff;
+}
+
+section.catering p {
+    color: #fff;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+
+
+
+@media (min-width: 768px) {
+    section.catering h2, section.catering p {
+        text-align: left;
+    }
+}
+
+/* ~~~~~~~ EVENTS ~~~~~~~ */
+section.events h3 {
+    text-align: center;
+}
+
+section.events .row {
+    padding: 30px 0;
+}
+
+
+/* ~~~~~~ VISIT ~~~~~~~ */
+section.visit {
+    background: #3eadaf;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+section.visit p {
+    text-align: center;
+}
+
+section.visit .map {
+    overflow: hidden;
+    max-height: 300px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+section.visit .contact {
+    margin: 15px;
+}
+section.visit input, section.visit textarea, section.visit button {
+    border: none;
+    border-radius: 0;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+section.visit button {
+    width: 250px;
+    background: #333;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+@media (min-width: 768px) {
+    section.visit .map {
+        max-height: 500px;
+        border: 10px solid #fff;
+        max-width: 900px;
+    }
+
+    section.visit .contact {
+        max-width: 700px;
+        margin: 0 auto;
+        padding-top: 0;
+    }
+}
+
+
+
+/* ~~~~~~ FOOTER ~~~~~~~ */
+section.footer {
+    min-height: 300px;
+    background: #444;
+    color: #888;
+    text-align: center;
+}
+
+section.footer .container {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+section.footer h3 {
+    text-align: center;
+}
+
+section.footer p {
+    font-weight: 300;
+    text-align: center;
+}
+
+section.footer .goodbay {
+    width: 250px;
+    height: 88px;
+    background: url('img/good-bay-logo.png');
+    transition: all ease-in-out .1s;
+    margin: 0 auto;
+}
+
+section.footer .goodbay:hover {
+    background: url('img/good-bay-logo-purple.png');
+    transition: all ease-in-out .1s;
+}
+
+
+/* ~~~~~~ BOOTSTRAP REPLACEMENTS ~~~~~~ */
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
